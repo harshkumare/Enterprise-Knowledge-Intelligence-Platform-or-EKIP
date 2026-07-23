@@ -1,27 +1,56 @@
+# ==========================
 # Virtual Environment
+# ==========================
 .venv/
 
+# ==========================
 # Environment Variables
+# ==========================
 .env
+.env.local
 
+# ==========================
 # Python
+# ==========================
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
+# ==========================
 # IDE
+# ==========================
 .idea/
 .vscode/
 
+# ==========================
 # Logs
+# ==========================
 logs/
 *.log
 
-# Temporary files
+# ==========================
+# Temporary Files
+# ==========================
 temp/
+temp.py
+temp2.py
 
+# ==========================
 # Streamlit
+# ==========================
 .streamlit/
 
-# OS
+# ==========================
+# OS Files
+# ==========================
 .DS_Store
 Thumbs.db
+
+# ==========================
+# Vector Database (Optional)
+# Uncomment if you don't want to commit generated indexes
+# ==========================
+# data/vector_store/
+# *.faiss
+# *.pkl
